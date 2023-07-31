@@ -13,7 +13,7 @@ public class DemoController {
 
     private Coach anotherCoach;
 
-    // beans using default singleton scope
+    // beans using prototype scope
     @Autowired
     public DemoController(
             @Qualifier("cricketCoach") Coach theCoach,
