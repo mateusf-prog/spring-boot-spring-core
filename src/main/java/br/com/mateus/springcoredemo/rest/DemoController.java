@@ -11,9 +11,9 @@ public class DemoController {
 
     private Coach myCoach;
 
-    /* in this case de bean used is of BaseballCoach */
+    /* in this case, the used bean is TrackCoach, because TrackCoach be using @Primary annotation */
     @Autowired
-    public DemoController(@Qualifier("baseballCoach") Coach theCoach) {
+    public DemoController(Coach theCoach) {
         myCoach = theCoach;
     }
 
