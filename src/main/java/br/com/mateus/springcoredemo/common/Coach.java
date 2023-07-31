@@ -1,4 +1,4 @@
-package com.mateus.springcoredemo.utils;
+package br.com.mateus.springcoredemo.common;
 
 public interface Coach {
 
