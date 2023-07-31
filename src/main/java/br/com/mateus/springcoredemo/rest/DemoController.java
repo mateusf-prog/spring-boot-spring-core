@@ -10,6 +10,8 @@ public class DemoController {
 
     private Coach myCoach;
 
+    /* the spring looking automatically a class that implements the interface Coach and injecting in this method
+     in this case, the class is CricketCoach */
     @Autowired
     public void setCoach(Coach theCoach) {
         myCoach = theCoach;
