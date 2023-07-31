@@ -1,5 +1,6 @@
-package br.com.mateus.springcoredemo;
+package br.com.mateus.springcoredemo.rest;
 
+import com.mateus.springcoredemo.utils.Coach;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

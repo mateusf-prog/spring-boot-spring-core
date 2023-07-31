@@ -1,4 +1,4 @@
-package br.com.mateus.springcoredemo;
+package com.mateus.springcoredemo.utils;
 
 import org.springframework.stereotype.Component;
 
